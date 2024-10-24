@@ -1,0 +1,57 @@
+.body_shopping{
+    height: 200%;
+    /* box-shadow:0 0 5px gray; */
+    margin:10px; 
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+.popup_shopping .body_shopping table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.popup_shopping .body_shopping table td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.popup_shopping .body_shopping table td a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+.popup_shopping .body_shopping .close button:hover{
+    opacity: 0.8;
+}
+.popup_shopping{
+    width:100%;
+    /* height:500px; */
+    text-align: center;
+    background: #fff;
+}
+ input{
+    border-radius: 5px;
+    border: 3px solid black;
+ }
+ .del{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: blue;
+    border: 3px;
+ }
+ .del:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: red;
+ }
+ .tong{
+    margin-top: 40px;
+    color: red;
+    font-size: 20px;
+    margin-left:1100px;
+ }
+ 
+ 

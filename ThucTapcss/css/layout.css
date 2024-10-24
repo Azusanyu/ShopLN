@@ -1,0 +1,136 @@
+/* bố cục layout */
+*{
+    margin: 5px;
+    position:relative;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    /* background-color: yellow; */
+}
+
+.button{
+    margin: 0 auto;
+    background-color: aquamarine;
+    color: orangered;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+/* sp css */
+/* Layou san pham/ shop */
+.dsSP{
+    width: 100%; height: auto;
+    /* background-color: red; */
+}
+.column{
+    width: 23%; height: 550px;
+    /* background-color: blue; */
+    float: left;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+.sanpham{
+    box-shadow: 0 0 5px gray;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    height: calc(100% - 20px);
+}
+
+/* .column:hover{
+    box-shadow: 4 4 5px red;
+    border-radius: 10px;
+    transform: scale(1.1);
+} */
+.sanpham img {
+    max-width: 90%;
+    margin-left: 5px;
+}
+.sanpham .ten{
+    font-size: larger;
+    /* font-variant: small-caps; */
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    height: 6 5px;
+}
+.sanpham .gia{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.sanpham .gia del{
+    color: gray;
+}
+.column:hover .btn{
+    display: block;
+}
+.column:hover .sanpham{
+    opacity: 0.2;
+}
+/* Icon */
+ion-icon{
+    width: 40px; height: 40px;
+}
+.iconLeft{
+    position: absolute;
+    top: 280px; left: 50px;
+}
+.iconRight{
+    position: absolute;
+    top: 280px; right: 50px;
+}
+.iconRight:hover{
+    border: 3px solid red;
+}
+.iconLeft:hover{
+    border: 3px solid red;
+}
+.iconShop{
+    height: 35px; width: 35px;
+    color: black;
+    cursor: pointer;
+}
+.iconShop:hover{
+    transform: scale(1.1);
+}
+.btn{
+    width:150px ; height: 50px ;
+    font-size: 20px;
+    background-color: red;
+    border: none; outline: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 130px; left: 70px;
+    display: none;
+    color: white;
+    box-shadow: 0 0 5px gray;
+    cursor: pointer;
+}
+.btnaddCart{
+    position: absolute;
+    bottom: 130px; left: 70px;
+}
+.btnDetail{
+    position: absolute;
+    bottom: 190px; left: 70px;
+}
+.gh{
+    width: 50px; height: 50px;
+    position: relative;
+    float: right;
+}
+.gh ion-icon{
+    margin-top: 5px;
+}
+.gh .shop{
+    position: absolute;
+    font-size: 15px;
+    top: 5px; right: 5px;
+    color: white;
+}
+
